@@ -70,12 +70,12 @@ tr.onclick = function () {
  
     
     node.style.backgroundColor="rgb(153,255,153)";
-    var count =0;
+ 
     var node3 = document.createElement("h");
     var textnode2 = document.createTextNode(text +" Task completed");
     node3.appendChild(textnode2);
     node.replaceChild(node3, h);
-    //node.appendChild(node3);
+   
     
 }
 
